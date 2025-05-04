@@ -1,5 +1,6 @@
-GOAL---
-# UC_Berkeley_Module17_ComparingClassifiers
+
+## UC Berkeley Module17 Comparing Classifiers By Kelly Lieu
+ GOAL--
  Practical application assignment. Goal is to compare the performance of the classifiers, K Nearest Neighbor, Logistic Regression, Decision Trees, and Support Vector Machines utilizing a dataset related to marketing bank products over the telephone.
 
  OVERVIEW---
@@ -14,7 +15,7 @@ GOAL---
  In this exercise, our data scientists will split up into 4 teams, each team will build a different algorithm, Logistic Regression, K Nearest Neighbor, Decision Trees, and Support Vector Machines. Then we will compare the performance of the classifiers using different metics. Finally, our team will provide visualization of the results and a recommendation to marketing managers.
 
  OUTLINE
- This Assignment will consist of this ReadMe, dataset, and Jupyter notebook the contains the step-by-step methodology implemented and written in Python to arrive at our findings. The overall outline of steps are:
+ This Assignment will consist of this README, dataset, and Jupyter notebook the contains the step-by-step methodology implemented and written in Python to arrive at our findings. The overall outline of steps are:
  1) Reading the data
  2) Understanding features
  3) Understanding the tasks
@@ -28,7 +29,7 @@ GOAL---
  11) Finding the best features and provide recommendation in output
  
 INPUT VARIABLES---
-# bank client data:
+//bank client data:
 1 - age (numeric)
 2 - job : type of job (categorical: 'admin.','blue-collar','entrepreneur','housemaid','management','retired','self-employed','services','student','technician','unemployed','unknown')
 3 - marital : marital status (categorical: 'divorced','married','single','unknown'; note: 'divorced' means divorced or widowed)
@@ -36,17 +37,17 @@ INPUT VARIABLES---
 5 - default: has credit in default? (categorical: 'no','yes','unknown')
 6 - housing: has housing loan? (categorical: 'no','yes','unknown')
 7 - loan: has personal loan? (categorical: 'no','yes','unknown')
-# related with the last contact of the current campaign:
+//related with the last contact of the current campaign:
 8 - contact: contact communication type (categorical: 'cellular','telephone')
 9 - month: last contact month of year (categorical: 'jan', 'feb', 'mar', ..., 'nov', 'dec')
 10 - day_of_week: last contact day of the week (categorical: 'mon','tue','wed','thu','fri')
 11 - duration: last contact duration, in seconds (numeric). Important note: this attribute highly affects the output target (e.g., if duration=0 then y='no'). Yet, the duration is not known before a call is performed. Also, after the end of the call y is obviously known. Thus, this input should only be included for benchmark purposes and should be discarded if the intention is to have a realistic predictive model.
-# other attributes:
+//other attributes:
 12 - campaign: number of contacts performed during this campaign and for this client (numeric, includes last contact)
 13 - pdays: number of days that passed by after the client was last contacted from a previous campaign (numeric; 999 means client was not previously contacted)
 14 - previous: number of contacts performed before this campaign and for this client (numeric)
 15 - poutcome: outcome of the previous marketing campaign (categorical: 'failure','nonexistent','success')
-# social and economic context attributes
+//social and economic context attributes
 16 - emp.var.rate: employment variation rate - quarterly indicator (numeric)
 17 - cons.price.idx: consumer price index - monthly indicator (numeric)
 18 - cons.conf.idx: consumer confidence index - monthly indicator (numeric)
@@ -54,7 +55,7 @@ INPUT VARIABLES---
 20 - nr.employed: number of employees - quarterly indicator (numeric)
 
 OUTPUT VARIABLE---
-# desired target
+[desired target]
 21 - y - has the client subscribed a term deposit? (binary: 'yes','no')
 
 SUMMARY OF INITIAL RESULTS---
