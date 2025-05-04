@@ -7,7 +7,7 @@
  In this practical application, our goal is to compare the performance of the classifiers we encountered in our class, namely K Nearest Neighbor, Logistic Regression, Decision Trees, and Support Vector Machines. We will utilize a dataset related to marketing bank products over the telephone.
  
  GETTING STARTED---
- Our dataset comes from the UCI Machine Learning repository link. The data is from a Portugese banking institution and is a collection of the results of multiple marketing campaigns. We will make use of the article accompanying the dataset here for more information on the data and features.
+ Our dataset comes from the UCI Machine Learning repository link: https://archive.ics.uci.edu/dataset/222/bank+marketing. The data is from a Portugese banking institution and is a collection of the results of multiple marketing campaigns. We will make use of the article accompanying the dataset here for more information on the data and features.
  
  BUSINESS OBJECTIVE---
  Our business objective is to leverage Business Intelligence and Data Mining tools to uncover attributes or patterns that can increase effectiveness of marketing strategies and campaigns for better key performance indicators (KPIs).
