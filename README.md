@@ -9,9 +9,10 @@
  BUSINESS OBJECTIVE---
  Our business objective is to leverage Business Intelligence and Data Mining tools to uncover attributes or patterns that can increase effectiveness of marketing strategies and campaigns for better key performance indicators (KPIs).
  
+ METHODOLOGY---
  In this exercise, our data scientists will split up this project into multiple phases. We will start with feature engineering, prepare training and test data, then build a baseline model to benchmark results. Next, we will build a simple model, and use pipelines to include Logistic Regression, KNN, Decision Tree, and SVM models. Furthermore, we will compare the performance of the classifiers using different metics. Finally, our team will provide visualization of the results with a recommendation to marketing managers.
 
- OUTLINE
+ OUTLINE---
  This Assignment will consist of this README, dataset, and Jupyter notebook the contains the step-by-step methodology implemented and written in Python to arrive at our findings. The overall outline of steps included in the Jupyter notebook are:
  1) Reading the data
  2) Understanding features
